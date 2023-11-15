@@ -1,6 +1,6 @@
 #1-> SYSTEM CALL INVOKING:-
 
-ALGORITHAMIC STEPS:-
+ALGORITHM :-
 
 1)Include the necessary header files, such as stdio.h and unistd.h.
 
@@ -8,7 +8,7 @@ ALGORITHAMIC STEPS:-
 
 3)Use the fork() system call to create a new child process. The fork() system call will return the child's PID in the parent process and 0 in the child process.
 
-4)Check the return value of fork():
+4)Check the return value of fork().
 
 5)If it's less than 0, the fork failed, and you should display an error message and exit.
 
